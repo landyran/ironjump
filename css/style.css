@@ -1,5 +1,6 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  color:  aliceblue;
 }
 
 .container {
@@ -7,6 +8,8 @@ html {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url(https://news.gsu.edu/files/2017/11/iStock-516189065.jpg);
+  background-size: auto;
 }
 
 canvas {
@@ -18,7 +21,6 @@ canvas {
 }
 
 
-
 .menu {
   display: flex;
   flex-direction: column;
@@ -26,21 +28,26 @@ canvas {
   margin-bottom: 8vh;
 }
 
-
 .menu button {
-  font-size: 20px;
+  font-size: 30px;
+  color: aliceblue;
   padding: 10px 20px;
   margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(32, 9, 116);
+  border-radius: 40px;
 }
 
 .menu .best-score {
   margin: 20px;
+  font-size: 25px;
 }
 
 .menu h1 {
   font-size: 60px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
+
 
 
 
